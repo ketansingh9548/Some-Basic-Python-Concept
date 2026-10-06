@@ -37,3 +37,18 @@ print("My hight is :", hight)
 
 print("Thanks")
 
+#if else condition ka use 
+
+a = int(input("Enter a number:"))
+print("Your entered number:" , a)
+
+if a%2 == 0 and a>0:
+    print("This is a even and positive number")
+elif a%2 != 0 and a>0:
+    print("This is a odd and positive number")
+elif a%2 == 0 and a<0:
+    print("This is a even and negative number")
+elif a%2 != 0 and a<0:
+    print("This is a odd and negative number")
+else:
+     print("This is zero")
