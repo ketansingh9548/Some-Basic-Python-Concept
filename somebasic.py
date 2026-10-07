@@ -1,4 +1,4 @@
-print("Ketan Singh ")
+
 
 name = input("Enter Your name:")
 print("This is your name:", name)
@@ -52,3 +52,5 @@ elif a%2 != 0 and a<0:
     print("This is a odd and negative number")
 else:
      print("This is zero")
+
+     
